@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A64063FF20C65BF300DAF646 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A64063FE20C65BF300DAF646 /* AppDelegate.m */; };
+		A640640220C65BF300DAF646 /* JFVideoRecordController.m in Sources */ = {isa = PBXBuildFile; fileRef = A640640120C65BF300DAF646 /* JFVideoRecordController.m */; };
+		A640640520C65BF300DAF646 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A640640320C65BF300DAF646 /* Main.storyboard */; };
+		A640640720C65BF500DAF646 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A640640620C65BF500DAF646 /* Assets.xcassets */; };
+		A640640A20C65BF500DAF646 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A640640820C65BF500DAF646 /* LaunchScreen.storyboard */; };
+		A640640D20C65BF500DAF646 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A640640C20C65BF500DAF646 /* main.m */; };
+		A640641720C65BF500DAF646 /* JFVideoRecordTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A640641620C65BF500DAF646 /* JFVideoRecordTests.m */; };
+		A640642220C65BF500DAF646 /* JFVideoRecordUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A640642120C65BF500DAF646 /* JFVideoRecordUITests.m */; };
+		A640643120C670ED00DAF646 /* JFAudioRecordController.m in Sources */ = {isa = PBXBuildFile; fileRef = A640643020C670ED00DAF646 /* JFAudioRecordController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A640641320C65BF500DAF646 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A64063F220C65BF300DAF646 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A64063F920C65BF300DAF646;
+			remoteInfo = JFVideoRecord;
+		};
+		A640641E20C65BF500DAF646 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A64063F220C65BF300DAF646 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A64063F920C65BF300DAF646;
+			remoteInfo = JFVideoRecord;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A64063FA20C65BF300DAF646 /* JFVideoRecord.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JFVideoRecord.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A64063FD20C65BF300DAF646 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A64063FE20C65BF300DAF646 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A640640020C65BF300DAF646 /* JFVideoRecordController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JFVideoRecordController.h; sourceTree = "<group>"; };
+		A640640120C65BF300DAF646 /* JFVideoRecordController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JFVideoRecordController.m; sourceTree = "<group>"; };
+		A640640420C65BF300DAF646 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A640640620C65BF500DAF646 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A640640920C65BF500DAF646 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A640640B20C65BF500DAF646 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A640640C20C65BF500DAF646 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A640641220C65BF500DAF646 /* JFVideoRecordTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JFVideoRecordTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A640641620C65BF500DAF646 /* JFVideoRecordTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JFVideoRecordTests.m; sourceTree = "<group>"; };
+		A640641820C65BF500DAF646 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A640641D20C65BF500DAF646 /* JFVideoRecordUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JFVideoRecordUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A640642120C65BF500DAF646 /* JFVideoRecordUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JFVideoRecordUITests.m; sourceTree = "<group>"; };
+		A640642320C65BF500DAF646 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A640642F20C670ED00DAF646 /* JFAudioRecordController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JFAudioRecordController.h; sourceTree = "<group>"; };
+		A640643020C670ED00DAF646 /* JFAudioRecordController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JFAudioRecordController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A64063F720C65BF300DAF646 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A640640F20C65BF500DAF646 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A640641A20C65BF500DAF646 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A64063F120C65BF300DAF646 = {
+			isa = PBXGroup;
+			children = (
+				A64063FC20C65BF300DAF646 /* JFVideoRecord */,
+				A640641520C65BF500DAF646 /* JFVideoRecordTests */,
+				A640642020C65BF500DAF646 /* JFVideoRecordUITests */,
+				A64063FB20C65BF300DAF646 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A64063FB20C65BF300DAF646 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A64063FA20C65BF300DAF646 /* JFVideoRecord.app */,
+				A640641220C65BF500DAF646 /* JFVideoRecordTests.xctest */,
+				A640641D20C65BF500DAF646 /* JFVideoRecordUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A64063FC20C65BF300DAF646 /* JFVideoRecord */ = {
+			isa = PBXGroup;
+			children = (
+				A64063FD20C65BF300DAF646 /* AppDelegate.h */,
+				A64063FE20C65BF300DAF646 /* AppDelegate.m */,
+				A640642F20C670ED00DAF646 /* JFAudioRecordController.h */,
+				A640643020C670ED00DAF646 /* JFAudioRecordController.m */,
+				A640640020C65BF300DAF646 /* JFVideoRecordController.h */,
+				A640640120C65BF300DAF646 /* JFVideoRecordController.m */,
+				A640640320C65BF300DAF646 /* Main.storyboard */,
+				A640640620C65BF500DAF646 /* Assets.xcassets */,
+				A640640820C65BF500DAF646 /* LaunchScreen.storyboard */,
+				A640640B20C65BF500DAF646 /* Info.plist */,
+				A640640C20C65BF500DAF646 /* main.m */,
+			);
+			path = JFVideoRecord;
+			sourceTree = "<group>";
+		};
+		A640641520C65BF500DAF646 /* JFVideoRecordTests */ = {
+			isa = PBXGroup;
+			children = (
+				A640641620C65BF500DAF646 /* JFVideoRecordTests.m */,
+				A640641820C65BF500DAF646 /* Info.plist */,
+			);
+			path = JFVideoRecordTests;
+			sourceTree = "<group>";
+		};
+		A640642020C65BF500DAF646 /* JFVideoRecordUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A640642120C65BF500DAF646 /* JFVideoRecordUITests.m */,
+				A640642320C65BF500DAF646 /* Info.plist */,
+			);
+			path = JFVideoRecordUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A64063F920C65BF300DAF646 /* JFVideoRecord */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A640642620C65BF500DAF646 /* Build configuration list for PBXNativeTarget "JFVideoRecord" */;
+			buildPhases = (
+				A64063F620C65BF300DAF646 /* Sources */,
+				A64063F720C65BF300DAF646 /* Frameworks */,
+				A64063F820C65BF300DAF646 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JFVideoRecord;
+			productName = JFVideoRecord;
+			productReference = A64063FA20C65BF300DAF646 /* JFVideoRecord.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A640641120C65BF500DAF646 /* JFVideoRecordTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A640642920C65BF500DAF646 /* Build configuration list for PBXNativeTarget "JFVideoRecordTests" */;
+			buildPhases = (
+				A640640E20C65BF500DAF646 /* Sources */,
+				A640640F20C65BF500DAF646 /* Frameworks */,
+				A640641020C65BF500DAF646 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A640641420C65BF500DAF646 /* PBXTargetDependency */,
+			);
+			name = JFVideoRecordTests;
+			productName = JFVideoRecordTests;
+			productReference = A640641220C65BF500DAF646 /* JFVideoRecordTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A640641C20C65BF500DAF646 /* JFVideoRecordUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A640642C20C65BF500DAF646 /* Build configuration list for PBXNativeTarget "JFVideoRecordUITests" */;
+			buildPhases = (
+				A640641920C65BF500DAF646 /* Sources */,
+				A640641A20C65BF500DAF646 /* Frameworks */,
+				A640641B20C65BF500DAF646 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A640641F20C65BF500DAF646 /* PBXTargetDependency */,
+			);
+			name = JFVideoRecordUITests;
+			productName = JFVideoRecordUITests;
+			productReference = A640641D20C65BF500DAF646 /* JFVideoRecordUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A64063F220C65BF300DAF646 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = huangpengfei;
+				TargetAttributes = {
+					A64063F920C65BF300DAF646 = {
+						CreatedOnToolsVersion = 9.3.1;
+					};
+					A640641120C65BF500DAF646 = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = A64063F920C65BF300DAF646;
+					};
+					A640641C20C65BF500DAF646 = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = A64063F920C65BF300DAF646;
+					};
+				};
+			};
+			buildConfigurationList = A64063F520C65BF300DAF646 /* Build configuration list for PBXProject "JFVideoRecord" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A64063F120C65BF300DAF646;
+			productRefGroup = A64063FB20C65BF300DAF646 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A64063F920C65BF300DAF646 /* JFVideoRecord */,
+				A640641120C65BF500DAF646 /* JFVideoRecordTests */,
+				A640641C20C65BF500DAF646 /* JFVideoRecordUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A64063F820C65BF300DAF646 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A640640A20C65BF500DAF646 /* LaunchScreen.storyboard in Resources */,
+				A640640720C65BF500DAF646 /* Assets.xcassets in Resources */,
+				A640640520C65BF300DAF646 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A640641020C65BF500DAF646 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A640641B20C65BF500DAF646 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A64063F620C65BF300DAF646 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A640640220C65BF300DAF646 /* JFVideoRecordController.m in Sources */,
+				A640643120C670ED00DAF646 /* JFAudioRecordController.m in Sources */,
+				A640640D20C65BF500DAF646 /* main.m in Sources */,
+				A64063FF20C65BF300DAF646 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A640640E20C65BF500DAF646 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A640641720C65BF500DAF646 /* JFVideoRecordTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A640641920C65BF500DAF646 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A640642220C65BF500DAF646 /* JFVideoRecordUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A640641420C65BF500DAF646 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A64063F920C65BF300DAF646 /* JFVideoRecord */;
+			targetProxy = A640641320C65BF500DAF646 /* PBXContainerItemProxy */;
+		};
+		A640641F20C65BF500DAF646 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A64063F920C65BF300DAF646 /* JFVideoRecord */;
+			targetProxy = A640641E20C65BF500DAF646 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A640640320C65BF300DAF646 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A640640420C65BF300DAF646 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A640640820C65BF500DAF646 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A640640920C65BF500DAF646 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A640642420C65BF500DAF646 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A640642520C65BF500DAF646 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A640642720C65BF500DAF646 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C9GN7A92DK;
+				INFOPLIST_FILE = JFVideoRecord/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jf.JFVideoRecord;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A640642820C65BF500DAF646 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C9GN7A92DK;
+				INFOPLIST_FILE = JFVideoRecord/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jf.JFVideoRecord;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A640642A20C65BF500DAF646 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C9GN7A92DK;
+				INFOPLIST_FILE = JFVideoRecordTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jf.JFVideoRecordTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JFVideoRecord.app/JFVideoRecord";
+			};
+			name = Debug;
+		};
+		A640642B20C65BF500DAF646 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C9GN7A92DK;
+				INFOPLIST_FILE = JFVideoRecordTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jf.JFVideoRecordTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JFVideoRecord.app/JFVideoRecord";
+			};
+			name = Release;
+		};
+		A640642D20C65BF500DAF646 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C9GN7A92DK;
+				INFOPLIST_FILE = JFVideoRecordUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jf.JFVideoRecordUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JFVideoRecord;
+			};
+			name = Debug;
+		};
+		A640642E20C65BF500DAF646 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C9GN7A92DK;
+				INFOPLIST_FILE = JFVideoRecordUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jf.JFVideoRecordUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JFVideoRecord;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A64063F520C65BF300DAF646 /* Build configuration list for PBXProject "JFVideoRecord" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A640642420C65BF500DAF646 /* Debug */,
+				A640642520C65BF500DAF646 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A640642620C65BF500DAF646 /* Build configuration list for PBXNativeTarget "JFVideoRecord" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A640642720C65BF500DAF646 /* Debug */,
+				A640642820C65BF500DAF646 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A640642920C65BF500DAF646 /* Build configuration list for PBXNativeTarget "JFVideoRecordTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A640642A20C65BF500DAF646 /* Debug */,
+				A640642B20C65BF500DAF646 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A640642C20C65BF500DAF646 /* Build configuration list for PBXNativeTarget "JFVideoRecordUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A640642D20C65BF500DAF646 /* Debug */,
+				A640642E20C65BF500DAF646 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A64063F220C65BF300DAF646 /* Project object */;
+}
